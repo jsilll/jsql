@@ -1,0 +1,198 @@
+# Build directories and artifacts
+build/
+bin/
+lib/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Debug information
+*.dSYM/
+*.pdb
+*.ilk
+
+# Dependency files
+*.d
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+#*#
+
+# Core dumps and crash reports
+core
+core.*
+!core/
+!core.h
+*.stackdump
+crash_*.txt
+
+# Profiling data
+gmon.out
+*.gcda
+*.gcno
+*.gcov
+callgrind.out.*
+cachegrind.out.*
+massif.out.*
+
+# Static analysis
+cov-int/
+scan-build-*/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+test_*.db
+example_*.db
+
+# Log files
+*.log
+logs/
+
+# Configuration files
+config.ini
+.env
+secrets.h
+
+# Editor and IDE files
+# Vim
+*.swp
+*.swo
+*.vim
+.vimrc.local
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion/IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-*/
+
+# Eclipse CDT
+.metadata
+.project
+.cproject
+.settings/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# Code::Blocks
+*.cbp
+*.layout
+*.depend
+
+# Dev-C++
+*.dev
+
+# Clangd
+.cache/
+
+# Documentation generated files
+docs/html/
+docs/latex/
+docs/man/
+*.pdf
+doxygen_warnings.log
+
+# Package files
+*.tar.gz
+*.tar.bz2
+*.zip
+*.deb
+*.rpm
+
+# OS specific files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Test coverage reports
+coverage/
+*.info
+lcov.info
+
+# Benchmark results
+benchmark_results/
+*.bench
+
+# Memory leak reports
+valgrind_*.txt
+leak_*.txt
+
+# Performance analysis
+perf.data*
+*.prof
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Installation files
+install_manifest.txt
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+*.cmake
+
+# Autotools
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.guess
+config.h
+config.h.in
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+missing
+stamp-h1
+
+# pkg-config files
+*.pc

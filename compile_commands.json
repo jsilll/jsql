@@ -1,0 +1,80 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Wconversion",
+      "-Wshadow",
+      "-Wstrict-prototypes",
+      "-std=c11",
+      "-Iinclude",
+      "-D_GNU_SOURCE",
+      "-g",
+      "-DDEBUG",
+      "-O0",
+      "-fsanitize=address",
+      "-fsanitize=undefined",
+      "-c",
+      "-o",
+      "build/debug/src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/joao/Workspace/jsql",
+    "file": "/home/joao/Workspace/jsql/src/main.c",
+    "output": "/home/joao/Workspace/jsql/build/debug/src/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Wconversion",
+      "-Wshadow",
+      "-Wstrict-prototypes",
+      "-std=c11",
+      "-Iinclude",
+      "-D_GNU_SOURCE",
+      "-g",
+      "-DDEBUG",
+      "-O0",
+      "-fsanitize=address",
+      "-fsanitize=undefined",
+      "-c",
+      "-o",
+      "build/debug/src/core/config.o",
+      "src/core/config.c"
+    ],
+    "directory": "/home/joao/Workspace/jsql",
+    "file": "/home/joao/Workspace/jsql/src/core/config.c",
+    "output": "/home/joao/Workspace/jsql/build/debug/src/core/config.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Wconversion",
+      "-Wshadow",
+      "-Wstrict-prototypes",
+      "-std=c11",
+      "-Iinclude",
+      "-D_GNU_SOURCE",
+      "-g",
+      "-DDEBUG",
+      "-O0",
+      "-fsanitize=address",
+      "-fsanitize=undefined",
+      "-c",
+      "-o",
+      "build/debug/src/core/database.o",
+      "src/core/database.c"
+    ],
+    "directory": "/home/joao/Workspace/jsql",
+    "file": "/home/joao/Workspace/jsql/src/core/database.c",
+    "output": "/home/joao/Workspace/jsql/build/debug/src/core/database.o"
+  }
+]
